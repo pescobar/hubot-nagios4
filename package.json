@@ -2,19 +2,19 @@
     "name": "hubot-nagios4",
     "version": "1.0.3",
 
-    "description": "hubot script that interacts with nagios4",
+    "description": "hubot script that interacts with nagios4. Simple modification to show check_mk urls",
     "keywords": [ "hubot", "hubot-scripts", "nagios" ],
 
-    "author": "Bryan Casey (http://github.com/TheCase/)",
+    "author": "Pablo Escobar (http://github.com/pescobar/)",
 
     "license": "MIT",
 
     "repository": {
         "type": "git",
-        "url": "https://github.com/TheCase/hubot-nagios4.git"
+        "url": "https://github.com/pescobar/hubot-nagios4.git"
     },
-    "homepage": "https://github.com/TheCase/hubot-nagios4",
-    "bugs": "https://github.com/TheCase/hubot-nagios4/issues",
+    "homepage": "https://github.com/pescobar/hubot-nagios4",
+    "bugs": "https://github.com/pescobar/hubot-nagios4/issues",
 
     "dependencies": {
         "coffee-script": "~1.6",
