@@ -91,6 +91,7 @@ module.exports = (robot) ->
           info = "#{nagios_url}/#{call}?#{data}"
           console.log nagios_url
           console.log data
+          console.log "this is a test"
           nagios_post msg, auth, call, data, (html) ->
             if html.match(/of 0 Matching Services/)
               msg.send "I didn't find any services for a host named '#{host}'"
